@@ -1,0 +1,79 @@
+Online Shopping Management System – Project Summary
+🔹 Overview
+The Online Shopping Management System is a comprehensive DBMS project that simulates the core functionalities of an e-commerce platform. It enables customers to purchase products online and allows the administrator to manage transactions, monitor reports, and analyze customer behavior through various database-driven queries and operations. The system is developed using Java for the frontend and SQL for backend database management.
+
+🔹 Core Functionalities
+👤 Customer Module
+Customers can:
+
+Insert Order Details – Select and purchase items from available stock.
+
+Generate Bill – Create a bill based on selected items.
+
+Display Bill Details – View complete bill before payment.
+
+Make Payment – Finalize order with preferred payment method.
+
+🛠️ Admin Module
+Admins have access to 8 powerful analytical features:
+
+Display Year-wise Order Details
+
+Display Day-wise Order Count
+
+Display Most Used Payment Mode
+
+Display Highest Selling Product in a Given Range
+
+Display Product with Most Returns
+
+Display All Order Details
+
+Display Top 3 Frequent Buyers
+
+Display Top 3 Highest Spending Customers
+
+🔹 Backend Implementation
+✅ Database Components
+All order details are saved to the database.
+
+Bills are generated based on real-time data from order entries.
+
+Payments are tracked and stored by payment mode.
+
+⚙️ Procedures, Triggers & Functions
+This system includes stored procedures, SQL functions, and triggers for automation and integrity.
+
+Examples include:
+
+Trigger on order_details insert to update stock
+
+Function to calculate total payment
+
+Procedure to list top customers based on frequency and expenditure
+
+📂 Project Files & Structure
+Java Code Folder: Connects the front-end interface to the SQL database.
+
+SQL Scripts Folder: Contains all procedures, functions, and triggers.
+
+DBMS Project PDF: Contains:
+
+Full project description
+
+Relational schema/ER diagram
+
+SQL procedures, triggers, functions with output screenshots
+
+Output Images Folder: Visual output results for verification of all major SQL operations.
+
+💻 Technology Stack
+Frontend: Java (Swing / Console-based)
+
+Backend: MySQL / PostgreSQL
+
+Tools: VS Code / IntelliJ / MySQL Workbench / pgAdmin
+
+✅ Conclusion
+This project demonstrates a complete integration of front-end and back-end using Java and SQL. It applies real-world DBMS concepts like data insertion, reporting, triggers, stored procedures, and user-role separation. The system can be extended with additional features such as product recommendations, cart management, or email notifications.
+
